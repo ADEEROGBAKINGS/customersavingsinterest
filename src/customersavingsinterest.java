@@ -6,7 +6,7 @@ public class customersavingsinterest {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
-
+        // Collect customer details
         System.out.print("Enter customer name: ");
         String name = input.nextLine();
 
