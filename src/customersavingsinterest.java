@@ -16,14 +16,14 @@ public class customersavingsinterest {
         System.out.print("Enter annual interest rate (%): ");
         double rate = input.nextDouble();
 
-        double interest = deposit * (rate / 100);
-        double finalBalance = deposit + interest;
+        double totalinterest = deposit * (rate / 100);
+        double finalBalance = deposit + totalinterest;
 
         System.out.println("\n========== SAVINGS SUMMARY ==========");
         System.out.println("Customer Name: " + name);
         System.out.println("Original Deposit: " + deposit);
         System.out.println("Interest Rate: " + rate + "%");
-        System.out.println("Calculated Interest: " + interest);
+        System.out.println("Calculated Interest: " + totalinterest);
         System.out.println("Final Balance: " + finalBalance);
 
         input.close();
