@@ -1,3 +1,4 @@
+//THE PROGRAM CALCULATES THE CUSTOMERS SAVINGS INTEREST
 import java.util.Scanner;
 
 public class customersavingsinterest {
